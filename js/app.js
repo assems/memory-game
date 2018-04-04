@@ -98,13 +98,13 @@ function matched(){
     openedCards = [];
 }
 function unmatched(){
-	openedCards[0].classList.remove('match');
-	openedCards[1].classList.remove('match');
-	setTimeout(function() {
-		openedCards[0].classList.remove("show", "open");
-		openedCards[1].classList.remove("show", "open");
-		openedCards = [];
-	}, 800);
+	openedCards[0].classList.remove('match', 'show', 'open');
+	openedCards[1].classList.remove('match', 'show', 'open');
+// 	setTimeout(function() {
+// 		openedCards[0].classList.remove("show", "open");
+// 		openedCards[1].classList.remove("show", "open");
+// 		openedCards = [];
+// 	}, 800);
 
 }
 function disabled(){
