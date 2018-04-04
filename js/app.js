@@ -100,6 +100,7 @@ function matched(){
 function unmatched(){
 	openedCards[0].classList.remove('match', 'show', 'open');
 	openedCards[1].classList.remove('match', 'show', 'open');
+	openedCards = [];
 // 	setTimeout(function() {
 // 		openedCards[0].classList.remove("show", "open");
 // 		openedCards[1].classList.remove("show", "open");
